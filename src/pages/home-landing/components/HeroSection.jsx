@@ -34,7 +34,7 @@ const HeroSection = () => {
     },
     {
       id: 3,
-      image: "https://images.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg",
+      image: "https://unsplash.com/photos/an-aerial-view-of-a-farm-field-with-a-tractor-1RLY-gArInE",
       title: "Multilingual Farming Support",
       subtitle: "Access agricultural expertise in your local language with voice-enabled assistance",
       highlight: "English & Bengali Support"
@@ -84,7 +84,7 @@ const HeroSection = () => {
               alt={slide?.title}
               className="w-full h-full object-cover"
             />
-            
+
             <div className="absolute inset-0 z-20 flex items-center justify-center">
               <div className="container mx-auto px-4 text-center text-white">
                 <motion.div
@@ -97,15 +97,15 @@ const HeroSection = () => {
                     <Icon name="Sparkles" size={16} className="mr-2" />
                     <span className="text-sm font-medium">{slide?.highlight}</span>
                   </div>
-                  
+
                   <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                     {slide?.title}
                   </h1>
-                  
+
                   <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
                     {slide?.subtitle}
                   </p>
-                  
+
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <Button
                       variant="default"
@@ -117,7 +117,7 @@ const HeroSection = () => {
                     >
                       Get Started Free
                     </Button>
-                    
+
                     <Button
                       variant="outline"
                       size="lg"
