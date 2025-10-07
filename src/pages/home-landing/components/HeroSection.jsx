@@ -34,7 +34,7 @@ const HeroSection = () => {
     },
     {
       id: 3,
-      image: "https://unsplash.com/photos/an-aerial-view-of-a-farm-field-with-a-tractor-1RLY-gArInE",
+      image: "https://images.unsplash.com/photo-1731361183753-92449577ad30?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Multilingual Farming Support",
       subtitle: "Access agricultural expertise in your local language with voice-enabled assistance",
       highlight: "English & Bengali Support"
